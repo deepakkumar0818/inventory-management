@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System - Complete Workflow Presentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-boxes"></i>
+                <span>Inventory System</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#overview" class="nav-link">Overview</a></li>
+                <li><a href="#workflow" class="nav-link">Workflow</a></li>
+                <li><a href="#components" class="nav-link">Components</a></li>
+                <li><a href="#processes" class="nav-link">Processes</a></li>
+                <li><a href="#demo" class="nav-link">Demo</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="overview" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Inventory Management System</h1>
+                <p class="hero-subtitle">Complete Workflow & Process Overview</p>
+                <p class="hero-description">
+                    A comprehensive guide to understanding how modern inventory management systems work, 
+                    from product intake to order fulfillment and everything in between.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Core Processes</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">System Components</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Automated</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="inventory-flow">
+                    <div class="flow-item" data-step="1">
+                        <i class="fas fa-truck"></i>
+                        <span>Receiving</span>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-item" data-step="2">
+                        <i class="fas fa-warehouse"></i>
+                        <span>Storage</span>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-item" data-step="3">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Order</span>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-item" data-step="4">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Fulfillment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Overview -->
+    <section class="overview">
+        <div class="container">
+            <h2 class="section-title">System Modules Overview</h2>
+            <div class="architecture-diagram">
+                <div class="arch-layer">
+                    <h3>Core Inventory Modules</h3>
+                    <div class="arch-components">
+                        <div class="arch-component">Items Management</div>
+                        <div class="arch-component">Item Groups</div>
+                        <div class="arch-component">Price Lists</div>
+                        <div class="arch-component">Inventory Adjustments</div>
+                        <div class="arch-component">Stock Counts</div>
+                    </div>
+                </div>
+                <div class="arch-layer">
+                    <h3>Operations Modules</h3>
+                    <div class="arch-components">
+                        <div class="arch-component">Picklists</div>
+                        <div class="arch-component">Packages</div>
+                        <div class="arch-component">Shipments</div>
+                        <div class="arch-component">Transfer Orders</div>
+                        <div class="arch-component">Purchase Orders</div>
+                    </div>
+                </div>
+                <div class="arch-layer">
+                    <h3>Financial Modules</h3>
+                    <div class="arch-components">
+                        <div class="arch-component">Sales Orders</div>
+                        <div class="arch-component">Invoices</div>
+                        <div class="arch-component">Payments</div>
+                        <div class="arch-component">Purchase Receives</div>
+                        <div class="arch-component">Bills & Credits</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section id="workflow" class="workflow">
+        <div class="container">
+            <h2 class="section-title">Complete Inventory Workflow</h2>
+            <div class="workflow-container">
+                <div class="workflow-step" data-step="1">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Purchase Orders & Receiving</h3>
+                        <p>Complete procurement workflow from vendor selection to inventory receipt and payment processing</p>
+                        <div class="step-details">
+                            <ul>
+                                <li><strong>Vendor Management:</strong> Vendor registration, qualification, performance tracking, payment terms setup</li>
+                                <li><strong>Purchase Orders:</strong> PO creation, approval workflow, vendor communication, order tracking</li>
+                                <li><strong>Purchase Receives:</strong> Goods receipt verification, quality inspection, quantity validation, documentation</li>
+                                <li><strong>Bill Processing:</strong> Invoice matching, three-way matching (PO/Receipt/Invoice), approval routing</li>
+                                <li><strong>Payment Management:</strong> Payment scheduling, vendor payment processing, payment reconciliation</li>
+                                <li><strong>Expense Tracking:</strong> Direct expense recording, expense categorization, cost center allocation</li>
+                            </ul>
+                        </div>
+                        <div class="step-subprocesses">
+                            <h4>Sub-Processes:</h4>
+                            <div class="subprocess-grid">
+                                <div class="subprocess-item">Vendor Onboarding</div>
+                                <div class="subprocess-item">PO Approval</div>
+                                <div class="subprocess-item">Goods Inspection</div>
+                                <div class="subprocess-item">Invoice Matching</div>
+                                <div class="subprocess-item">Payment Processing</div>
+                                <div class="subprocess-item">Vendor Credits</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                </div>
+
+                <div class="workflow-step" data-step="2">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Items & Inventory Management</h3>
+                        <p>Comprehensive item master data management, categorization, pricing strategies, and inventory control operations</p>
+                        <div class="step-details">
+                            <ul>
+                                <li><strong>Items Master Data:</strong> SKU creation, product specifications, descriptions, dimensions, weight, barcode management</li>
+                                <li><strong>Item Groups:</strong> Product categorization, hierarchical grouping, group-level pricing, reporting by category</li>
+                                <li><strong>Price Lists:</strong> Multiple pricing tiers, customer-specific pricing, volume discounts, promotional pricing</li>
+                                <li><strong>Inventory Adjustments:</strong> Stock corrections, cycle count adjustments, damage adjustments, shrinkage tracking</li>
+                                <li><strong>Stock Counts:</strong> Physical inventory counts, cycle counting, ABC analysis, count variance reporting</li>
+                                <li><strong>Transfer Orders:</strong> Inter-location transfers, warehouse-to-warehouse moves, transfer documentation</li>
+                            </ul>
+                        </div>
+                        <div class="step-subprocesses">
+                            <h4>Sub-Processes:</h4>
+                            <div class="subprocess-grid">
+                                <div class="subprocess-item">SKU Management</div>
+                                <div class="subprocess-item">Product Catalog</div>
+                                <div class="subprocess-item">Pricing Rules</div>
+                                <div class="subprocess-item">Stock Adjustments</div>
+                                <div class="subprocess-item">Cycle Counting</div>
+                                <div class="subprocess-item">Location Transfers</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                </div>
+
+                <div class="workflow-step" data-step="3">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Sales Orders & Processing</h3>
+                        <p>End-to-end sales workflow from customer acquisition to order fulfillment and payment collection</p>
+                        <div class="step-details">
+                            <ul>
+                                <li><strong>Customer Management:</strong> Customer registration, credit limits, payment terms, customer hierarchy, contact management</li>
+                                <li><strong>Sales Orders:</strong> Order creation, order modification, order approval, order tracking, order status management</li>
+                                <li><strong>Retainer Invoices:</strong> Advance payment processing, retainer management, retainer application to invoices</li>
+                                <li><strong>Invoice Generation:</strong> Automated invoicing, invoice templates, tax calculations, invoice approval workflow</li>
+                                <li><strong>Sales Receipts:</strong> Cash sales processing, receipt printing, payment method tracking, receipt reconciliation</li>
+                                <li><strong>Payment Collection:</strong> Payment tracking, payment matching, payment reconciliation, collection management</li>
+                            </ul>
+                        </div>
+                        <div class="step-subprocesses">
+                            <h4>Sub-Processes:</h4>
+                            <div class="subprocess-grid">
+                                <div class="subprocess-item">Customer Onboarding</div>
+                                <div class="subprocess-item">Order Processing</div>
+                                <div class="subprocess-item">Credit Management</div>
+                                <div class="subprocess-item">Invoice Automation</div>
+                                <div class="subprocess-item">Payment Processing</div>
+                                <div class="subprocess-item">Sales Returns</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+
+                <div class="workflow-step" data-step="4">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Fulfillment Operations</h3>
+                        <p>Complete warehouse operations including order picking, packaging, shipping, and inventory transfers</p>
+                        <div class="step-details">
+                            <ul>
+                                <li><strong>Picklist Generation:</strong> Automated picklist creation, pick route optimization, batch picking, wave planning</li>
+                                <li><strong>Packages Management:</strong> Package configuration, packaging rules, package tracking, shipping labels</li>
+                                <li><strong>Shipments Processing:</strong> Carrier selection, shipping rates, tracking numbers, delivery confirmation</li>
+                                <li><strong>Transfer Orders:</strong> Inter-warehouse transfers, transfer documentation, transfer tracking, transfer reconciliation</li>
+                                <li><strong>Quality Control:</strong> Picking accuracy verification, packaging quality checks, shipment validation</li>
+                                <li><strong>Warehouse Optimization:</strong> Location optimization, pick path optimization, inventory slotting</li>
+                            </ul>
+                        </div>
+                        <div class="step-subprocesses">
+                            <h4>Sub-Processes:</h4>
+                            <div class="subprocess-grid">
+                                <div class="subprocess-item">Pick Planning</div>
+                                <div class="subprocess-item">Batch Processing</div>
+                                <div class="subprocess-item">Packaging Rules</div>
+                                <div class="subprocess-item">Carrier Integration</div>
+                                <div class="subprocess-item">Transfer Management</div>
+                                <div class="subprocess-item">Quality Assurance</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                </div>
+
+                <div class="workflow-step" data-step="5">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Stock Management</h3>
+                        <p>Comprehensive inventory control including stock counting, adjustments, monitoring, and optimization</p>
+                        <div class="step-details">
+                            <ul>
+                                <li><strong>Stock Counts:</strong> Physical inventory counts, cycle counting schedules, ABC analysis, count variance analysis</li>
+                                <li><strong>Inventory Adjustments:</strong> Stock corrections, damage adjustments, shrinkage tracking, adjustment approvals</li>
+                                <li><strong>Transfer Orders:</strong> Inter-location transfers, warehouse-to-warehouse moves, transfer documentation, transfer reconciliation</li>
+                                <li><strong>Stock Level Monitoring:</strong> Real-time stock tracking, reorder point alerts, safety stock management</li>
+                                <li><strong>Demand Forecasting:</strong> Sales trend analysis, seasonal adjustments, demand planning, procurement planning</li>
+                                <li><strong>Inventory Valuation:</strong> Costing methods (FIFO, LIFO, Average), inventory valuation reports, cost analysis</li>
+                            </ul>
+                        </div>
+                        <div class="step-subprocesses">
+                            <h4>Sub-Processes:</h4>
+                            <div class="subprocess-grid">
+                                <div class="subprocess-item">Cycle Counting</div>
+                                <div class="subprocess-item">Variance Analysis</div>
+                                <div class="subprocess-item">Adjustment Workflow</div>
+                                <div class="subprocess-item">Transfer Processing</div>
+                                <div class="subprocess-item">Demand Planning</div>
+                                <div class="subprocess-item">Cost Management</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                </div>
+
+                <div class="workflow-step" data-step="6">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3>Financial Management</h3>
+                        <p>Complete financial workflow including payments, credits, returns, and comprehensive financial reporting</p>
+                        <div class="step-details">
+                            <ul>
+                                <li><strong>Payments Received:</strong> Customer payment processing, payment matching, payment reconciliation, collection management</li>
+                                <li><strong>Payments Made:</strong> Vendor payment processing, payment scheduling, payment approval workflow, payment reconciliation</li>
+                                <li><strong>Sales Returns:</strong> Return authorization, return processing, return documentation, inventory restocking</li>
+                                <li><strong>Credit Notes:</strong> Credit note generation, credit application, credit approval workflow, credit tracking</li>
+                                <li><strong>Financial Reporting:</strong> P&L statements, balance sheets, cash flow reports, financial analytics</li>
+                                <li><strong>Tax Management:</strong> Tax calculations, tax reporting, tax compliance, multi-jurisdiction tax handling</li>
+                            </ul>
+                        </div>
+                        <div class="step-subprocesses">
+                            <h4>Sub-Processes:</h4>
+                            <div class="subprocess-grid">
+                                <div class="subprocess-item">Payment Processing</div>
+                                <div class="subprocess-item">Credit Management</div>
+                                <div class="subprocess-item">Return Processing</div>
+                                <div class="subprocess-item">Financial Reporting</div>
+                                <div class="subprocess-item">Tax Compliance</div>
+                                <div class="subprocess-item">Audit Trail</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Components Section -->
+    <section id="components" class="components">
+        <div class="container">
+            <h2 class="section-title">System Components</h2>
+            <div class="components-grid">
+                <div class="component-card">
+                    <div class="component-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3>Items Management</h3>
+                    <p>Central hub for managing all inventory items, groups, and pricing structures with comprehensive master data management</p>
+                    <div class="component-features">
+                        <span class="feature">Items Master</span>
+                        <span class="feature">Item Groups</span>
+                        <span class="feature">Price Lists</span>
+                    </div>
+                    <div class="component-details">
+                        <h4>Key Capabilities:</h4>
+                        <ul>
+                            <li>SKU creation and management with barcode support</li>
+                            <li>Product specifications, dimensions, and weight tracking</li>
+                            <li>Hierarchical item grouping and categorization</li>
+                            <li>Multiple pricing tiers and customer-specific pricing</li>
+                            <li>Volume discounts and promotional pricing</li>
+                            <li>Product lifecycle management</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="component-card">
+                    <div class="component-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>Purchase Management</h3>
+                    <p>Complete purchase workflow from vendor management to bill processing with comprehensive procurement controls</p>
+                    <div class="component-features">
+                        <span class="feature">Purchase Orders</span>
+                        <span class="feature">Purchase Receives</span>
+                        <span class="feature">Vendor Management</span>
+                    </div>
+                    <div class="component-details">
+                        <h4>Key Capabilities:</h4>
+                        <ul>
+                            <li>Vendor registration and qualification management</li>
+                            <li>Purchase order creation with approval workflows</li>
+                            <li>Goods receipt verification and quality inspection</li>
+                            <li>Three-way matching (PO/Receipt/Invoice)</li>
+                            <li>Vendor performance tracking and evaluation</li>
+                            <li>Expense tracking and cost center allocation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="component-card">
+                    <div class="component-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Sales Management</h3>
+                    <p>End-to-end sales process from order creation to payment collection</p>
+                    <div class="component-features">
+                        <span class="feature">Sales Orders</span>
+                        <span class="feature">Invoices</span>
+                        <span class="feature">Customer Management</span>
+                    </div>
+                </div>
+
+                <div class="component-card">
+                    <div class="component-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Fulfillment Operations</h3>
+                    <p>Warehouse operations including picking, packing, and shipping management</p>
+                    <div class="component-features">
+                        <span class="feature">Picklists</span>
+                        <span class="feature">Packages</span>
+                        <span class="feature">Shipments</span>
+                    </div>
+                </div>
+
+                <div class="component-card">
+                    <div class="component-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Inventory Control</h3>
+                    <p>Stock management, adjustments, counts, and transfer operations</p>
+                    <div class="component-features">
+                        <span class="feature">Stock Counts</span>
+                        <span class="feature">Inventory Adjustments</span>
+                        <span class="feature">Transfer Orders</span>
+                    </div>
+                </div>
+
+                <div class="component-card">
+                    <div class="component-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Financial Management</h3>
+                    <p>Complete financial workflow including payments, credits, and returns</p>
+                    <div class="component-features">
+                        <span class="feature">Payments</span>
+                        <span class="feature">Credit Notes</span>
+                        <span class="feature">Returns</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processes Section -->
+    <section id="processes" class="processes">
+        <div class="container">
+            <h2 class="section-title">Detailed Process Flows</h2>
+            <div class="process-tabs">
+                <button class="tab-button active" data-tab="purchase">Purchase Process</button>
+                <button class="tab-button" data-tab="sales">Sales Process</button>
+                <button class="tab-button" data-tab="fulfillment">Fulfillment Process</button>
+                <button class="tab-button" data-tab="inventory">Inventory Control</button>
+            </div>
+
+            <div class="process-content">
+                <div class="tab-content active" id="purchase">
+                    <div class="process-flow">
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-user-tie"></i></div>
+                            <h4>Vendor Setup</h4>
+                            <p>Create and manage vendor information</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-shopping-bag"></i></div>
+                            <h4>Purchase Order</h4>
+                            <p>Create purchase orders with vendors</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-truck"></i></div>
+                            <h4>Purchase Receive</h4>
+                            <p>Record receipt of goods from vendors</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-file-invoice"></i></div>
+                            <h4>Bill Processing</h4>
+                            <p>Process vendor bills and invoices</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-credit-card"></i></div>
+                            <h4>Payment Made</h4>
+                            <p>Record payments to vendors</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="sales">
+                    <div class="process-flow">
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-users"></i></div>
+                            <h4>Customer Setup</h4>
+                            <p>Create and manage customer information</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-shopping-cart"></i></div>
+                            <h4>Sales Order</h4>
+                            <p>Create sales orders from customers</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                            <h4>Invoice Generation</h4>
+                            <p>Generate invoices from sales orders</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-receipt"></i></div>
+                            <h4>Sales Receipt</h4>
+                            <p>Record sales receipts and payments</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-money-bill-wave"></i></div>
+                            <h4>Payment Received</h4>
+                            <p>Record payments from customers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="fulfillment">
+                    <div class="process-flow">
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-list"></i></div>
+                            <h4>Picklist Generation</h4>
+                            <p>Generate picklists from sales orders</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-hand-paper"></i></div>
+                            <h4>Picking</h4>
+                            <p>Warehouse staff pick items</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-box"></i></div>
+                            <h4>Packaging</h4>
+                            <p>Pack items for shipment</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-shipping-fast"></i></div>
+                            <h4>Shipment</h4>
+                            <p>Process shipments to customers</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-exchange-alt"></i></div>
+                            <h4>Transfer Orders</h4>
+                            <p>Manage inventory transfers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="inventory">
+                    <div class="process-flow">
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-boxes"></i></div>
+                            <h4>Items Management</h4>
+                            <p>Manage item master data and groups</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-tags"></i></div>
+                            <h4>Price Lists</h4>
+                            <p>Manage pricing structures</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-calculator"></i></div>
+                            <h4>Stock Counts</h4>
+                            <p>Perform physical inventory counts</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-edit"></i></div>
+                            <h4>Inventory Adjustments</h4>
+                            <p>Adjust inventory levels as needed</p>
+                        </div>
+                        <div class="flow-connector">→</div>
+                        <div class="flow-step">
+                            <div class="step-icon"><i class="fas fa-chart-line"></i></div>
+                            <h4>Stock Monitoring</h4>
+                            <p>Monitor stock levels and trends</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">Interactive Demo</h2>
+            <div class="demo-container">
+                <div class="demo-controls">
+                    <button class="demo-button" data-demo="purchase">
+                        <i class="fas fa-shopping-bag"></i>
+                        Purchase Demo
+                    </button>
+                    <button class="demo-button" data-demo="sales">
+                        <i class="fas fa-shopping-cart"></i>
+                        Sales Demo
+                    </button>
+                    <button class="demo-button" data-demo="fulfillment">
+                        <i class="fas fa-shipping-fast"></i>
+                        Fulfillment Demo
+                    </button>
+                </div>
+                <div class="demo-visual">
+                    <div class="demo-screen">
+                        <div class="demo-content" id="demo-content">
+                            <div class="demo-welcome">
+                                <h3>Select a Demo Above</h3>
+                                <p>Choose a process to see how it works in real-time</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specifications Section -->
+    <section class="technical-specs">
+        <div class="container">
+            <h2 class="section-title">Technical Specifications & Requirements</h2>
+            <div class="specs-grid">
+                <div class="spec-category">
+                    <h3><i class="fas fa-server"></i> System Requirements</h3>
+                    <div class="spec-list">
+                        <div class="spec-item">
+                            <span class="spec-label">Database:</span>
+                            <span class="spec-value">SQL Server, MySQL, PostgreSQL</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Web Server:</span>
+                            <span class="spec-value">IIS, Apache, Nginx</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Operating System:</span>
+                            <span class="spec-value">Windows Server, Linux</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">RAM:</span>
+                            <span class="spec-value">Minimum 8GB, Recommended 16GB+</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Storage:</span>
+                            <span class="spec-value">SSD Recommended, 100GB+ available</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spec-category">
+                    <h3><i class="fas fa-mobile-alt"></i> Client Requirements</h3>
+                    <div class="spec-list">
+                        <div class="spec-item">
+                            <span class="spec-label">Browser:</span>
+                            <span class="spec-value">Chrome, Firefox, Safari, Edge</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Mobile Support:</span>
+                            <span class="spec-value">iOS 12+, Android 8+</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Screen Resolution:</span>
+                            <span class="spec-value">1024x768 minimum</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Internet:</span>
+                            <span class="spec-value">Broadband connection recommended</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">JavaScript:</span>
+                            <span class="spec-value">ES6+ support required</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spec-category">
+                    <h3><i class="fas fa-cogs"></i> Integration Capabilities</h3>
+                    <div class="spec-list">
+                        <div class="spec-item">
+                            <span class="spec-label">API:</span>
+                            <span class="spec-value">RESTful API, GraphQL</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">EDI:</span>
+                            <span class="spec-value">X12, EDIFACT support</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">ERP Integration:</span>
+                            <span class="spec-value">SAP, Oracle, Microsoft Dynamics</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Shipping Carriers:</span>
+                            <span class="spec-value">FedEx, UPS, DHL, USPS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Payment Gateways:</span>
+                            <span class="spec-value">Stripe, PayPal, Square</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spec-category">
+                    <h3><i class="fas fa-shield-alt"></i> Security Features</h3>
+                    <div class="spec-list">
+                        <div class="spec-item">
+                            <span class="spec-label">Authentication:</span>
+                            <span class="spec-value">Multi-factor authentication</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Authorization:</span>
+                            <span class="spec-value">Role-based access control</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Encryption:</span>
+                            <span class="spec-value">TLS 1.3, AES-256</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Audit Trail:</span>
+                            <span class="spec-value">Complete transaction logging</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Compliance:</span>
+                            <span class="spec-value">SOX, GDPR, HIPAA ready</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">System Benefits</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Time Efficiency</h3>
+                    <p>Automated processes reduce manual work by 80%</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Cost Reduction</h3>
+                    <p>Optimized inventory reduces carrying costs by 25%</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Accuracy</h3>
+                    <p>99.9% inventory accuracy with barcode scanning</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Real-time insights for better decision making</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Inventory Management System</h3>
+                    <p>Complete workflow presentation showcasing modern inventory management processes and technologies.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Automated Receiving</li>
+                        <li>Smart Storage</li>
+                        <li>Order Processing</li>
+                        <li>Real-time Tracking</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Processes</h4>
+                    <ul>
+                        <li>Inventory Control</li>
+                        <li>Quality Management</li>
+                        <li>Demand Forecasting</li>
+                        <li>Performance Analytics</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Inventory Management System Presentation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
